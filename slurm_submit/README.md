@@ -1,4 +1,4 @@
-Method of submitting R jobs using SLURM system at longleaf.unc.edu
+# Method of submitting R jobs using SLURM system at longleaf.unc.edu
 
 
 ## R run code
