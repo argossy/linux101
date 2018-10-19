@@ -11,6 +11,8 @@ args = commandArgs(TRUE)
 dataset = args[1]
 i = as.numeric(args[2])
 
+set.seed(i)
+
 # i = 1; dataset='lasso';
 mx1 = matrix(rnorm(20*10),20,10,byrow=TRUE)
 write.csv(mx1,file=sprintf('mx_data_%s_%s.csv',dataset,i),row.names=FALSE,quote=FALSE)
