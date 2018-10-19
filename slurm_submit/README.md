@@ -1,4 +1,4 @@
-method of submitting R jobs using slurm system at longleaf.unc.edu
+Method of submitting R jobs using SLURM system at longleaf.unc.edu
 
 1. run_R_code.R
 the example code to run, which needs input parameters from another command line
