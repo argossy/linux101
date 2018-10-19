@@ -1,6 +1,7 @@
 ## this code submit R job with arguments in for loop using SLURM on longleaf.unc.edu
 
 ## submit run_R_code.R with different input parameters and runs in different jobs
+## this code can be run under R interactive mode in linux shell
 
 dataset = 'lasso'
 for(i in 1:10){
